@@ -1,0 +1,27 @@
+.header {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.posts {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.post > h3 {
+  color: blue;
+  border-bottom: 2px solid #333;
+  padding-bottom: 4px;
+}
+
+/* // Learn CSS SELECTORS */

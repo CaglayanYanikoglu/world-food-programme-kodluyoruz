@@ -1,0 +1,67 @@
+
+Meeting: mar-ndxu-ocp;
+Google search
+What is JavaScript?
+What is EcmaScript?
+Js Load (Async, defer)
+DOM
+Working With Variables (const, let, var)
+console.log()
+Veri türleri (string, number, booelan, object, array)
+Template Literals Kullanımı ``
+
+Document Object Model(DOM) Nedir
+Working with DOM
+DOM içerisinden Etiket ve ID ile Öğe Seçimi
+DOM ADDEventListener
+
+DOM'a CSS Class Bilgisi Eklemek veya Çıkarmak
+Karşılaştırma Operatörleri ve Mantıksal Operatörler
+Koşul Yapısı Kullanımı (if / else)
+Çoklu Koşul Yapısı Kullanımı
+Ternary Operator( koşul ? doğruysa : yanlışsa) ile If Kullanımı
+for Döngüsü Kullanımı
+break ve continue Kullanımı
+while Döngüsü
+Liste içerisindeki Öğeye Erişmek ve Yeni Öğe Eklemek
+Fonksiyonlar
+Fonksiyon Nedir ? Neden Kullanırız?
+Fonsiyona Parametre(params) ve Geridönüş(return) Eklemek
+ Arrow () => Fonksiyonu Kullanımı
+
+localStorage
+localStorage ile Veri Eklemek, Düzenlemek ve Silmek
+localStorage içerisine Farklı Türde Veriler Eklemek
+
+Dizi(Array) Veri Tipiyle Çalışmak
+Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak
+Diziye Yeni Eleman Eklemek, Çıkartmak ve Güncellemek
+Array(Dizi) Metotlarının Kullanımı 
+forEach ile Array içerisindeki Öğelerin Çağrılması
+Filter ile Array İçerisinde Sadece İstenilen Bilgilerin Yeni Listeye
+Eklenmesi
+Map ile Array İçerisideki Yapının Değiştirilerek Yeni Liste
+Oluşturulması
+Nesne(Object)
+Object(Nesne) Nedir? Nasıl Oluşturulur?
+Object Anahtar(Key) ve Değer(Value) Yapısının Kullanımı / Erişimi
+Nesnelere Nasıl Metot Ekleriz?
+Object ve Array Destructuring Kullanımı
+try ve catch kullanımı
+
+Fetch API
+JS isteklerinde Network takibi
+Comments // /* */
+
+Decision Structures / Conditions
+Functions
+Local Storage
+working with the array Data Type
+Hoisting
+Loops
+
+Form
+Error Management
+Fetch API
+async await / promise / callbacks
+Event Loop (How Js works)
