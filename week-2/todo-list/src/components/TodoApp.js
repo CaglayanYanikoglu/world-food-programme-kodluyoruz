@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import TodoList from './TodoList';
 
 // function component
 const TodoApp = () => {
@@ -29,13 +30,8 @@ const TodoApp = () => {
       <input value={newTodo} onChange={handleChange} type="text" placeholder="Add new todo" />
       <button onClick={addToList}>Add to List</button>
       {/* <p>New todo: {newTodo}</p> */}
-      <ul>
-        {todos.map((todo, index) => (
-          <div key={index}>
-            <li onClick={() => deleteItem(index)}>{todo}</li>
-          </div>
-        ))}
-      </ul>
+      {/* passing props */}
+      <TodoList todos={todos} />
     </div>
   );
 };
