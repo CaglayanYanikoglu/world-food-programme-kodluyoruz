@@ -1,0 +1,19 @@
+Meeting: mar-ndxu-ocp;
+Homework review
+
+Node, npm, yarn
+nvm
+
+Webpack / Bundle / Babel
+SPA / SEO
+CSR // SSR
+React
+(Create app = npx create-react-app@latest your-project-name --use-npm)
+JSX
+Virtual Dom
+Render
+Components
+State
+Props
+Mounting
+LifeCycle
