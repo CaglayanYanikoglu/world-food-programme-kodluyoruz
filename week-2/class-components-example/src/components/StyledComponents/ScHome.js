@@ -34,3 +34,27 @@ export const ToggleButton = Styled.button`
     background-color: #aa4444;
   }
 `;
+
+export const LoginButton = Styled.button`
+  background-color: green;
+  padding: 12px;
+  margin: 12px 0;
+  color: white;
+  border-radius: 4px;
+  border:none;
+  cursor: pointer;
+`;
+
+export const LogoutButton = Styled.button`
+  background-color: tomato;
+  padding: 12px;
+  margin: 12px 0;
+  color: white;
+  border-radius: 4px;
+  border:none;
+  cursor: pointer;
+  &:hover {
+    background: red;
+  }
+
+`;
