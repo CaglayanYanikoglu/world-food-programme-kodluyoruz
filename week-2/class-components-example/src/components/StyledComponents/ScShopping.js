@@ -15,7 +15,9 @@ export const Card = Styled.div`
   max-width: 250px;
   img {
     max-width: 100%;
-    max-height: 300px;
+    /* max-height: 300px; */
+    height: 200px;
+    width: auto;
     padding-bottom: 12px;
     border-bottom: 1px solid #ccc;
   }

@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card } from './StyledComponents/ScShopping';
 
 /* const ShoppingItem = (props) => {
   const { item } = props; */
 const ShoppingItem = ({ item }) => {
+  /* useEffect(()=> {
+    const timeInterval = setInterval(() => {
+      console.log('item');
+    }, 1000);
+
+    return () => { // componentWillUnmount, before execute useEffect
+      console.log('item will be unmount');
+      clearInterval(timeInterval);
+    }
+  }, []); */
+
   return (
     <Card>
       <img src={item.image} alt={item.title} />

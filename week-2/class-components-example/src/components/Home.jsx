@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useReducer } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Circles } from 'react-loader-spinner'
 
@@ -53,7 +53,7 @@ const Home = () => {
     // https://upload.wikimedia.org/wikipedia/en/7/77/EricCartman.png
     // id, title, description, price, image
     const newProduct = {
-      id: 1231321,
+      id: Math.floor(Math.random() * 100000),
       title: 'New Product',
       description: 'New Product Description',
       price: 300,
@@ -68,6 +68,10 @@ const Home = () => {
       // component will unmount
     } */
   }, []);
+
+/*   useEffect(() => {
+    console.log('user', user);
+  }, [user]); // component did update */
 
   /*   useEffect(() => {
       console.log('new search', search);

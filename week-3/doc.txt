@@ -1,0 +1,39 @@
+Meeting: mar-ndxu-ocp;
+
+React nedir?
+(Create app = npx create-react-app@latest your-project-name --use-npm)
+
+SPA nedir?
+React Component nedir?
+Neden Component kullanılır?
+React Class Component
+Render nedir?
+Class Constructor
+React Fragment
+React Attr Name (className, onClick, tabIndex)
+React Arrow function Farkı
+React if kullanımı
+State, props nedir?
+setState
+State sadece object mi olabilir?
+React style (inline-sass)
+constructor ,componentDidMount, componentDidUpdate(prevProps, prevState, snapshot), componentWillUnmount(), shouldComponentUpdate()
+React One Top Level Element (React.Fragment)
+React Function Component
+
+Week 3:
+Ödev Kontrol
+React.Memo // NOT useMemo
+Component Lifecycles
+List ve Keys
+Composition vs Inheritance
+https://reactjs.org/docs/composition-vs-inheritance.html
+useState, useEffect, useMemo, useCallback, useRef
+React Router(belki 2.gün)
+Proje yapımı derste (belki 2.gün)
+
+Day 2:
+ContextAPI
+
+
+
