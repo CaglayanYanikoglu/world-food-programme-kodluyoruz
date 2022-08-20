@@ -1,0 +1,22 @@
+Meeting: mar-ndxu-ocp;
+
+(Create app = npx create-react-app@latest your-project-name --use-npm)
+
+İlk 3 hafta tekrar(sorular üzerinden)
+React router (https://reactrouter.com/docs/en/v6/getting-started/tutorial)
+Proje yapımı
+React Refs (https://reactjs.org/docs/refs-and-the-dom.html)
+
+ReactJS Functional Components
+ReactJS DOM
+ReactJS Virtual DOM
+Props
+React Context
+React Fragments
+
+Day 2:
+High order components (https://reactjs.org/docs/higher-order-components.html)
+ HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature.
+ReactCode-Splitting
+Lifting State up in ReactJS
+Portal

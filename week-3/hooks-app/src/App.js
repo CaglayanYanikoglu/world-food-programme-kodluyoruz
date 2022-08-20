@@ -14,7 +14,7 @@ function App() {
      {/* <UseReducerExample initialCount={15} /> */}
     {/* <UseMemoExample /> */}
     {/* <UseCallbackExample /> */}
-    <UseRefExample />
+    {/* <UseRefExample /> */}
    </div>
   );
 }
