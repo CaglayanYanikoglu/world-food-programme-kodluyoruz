@@ -4,6 +4,7 @@ const ThemeContext = createContext(); // general state
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
+  const [name, setName] = useState("Default Name");
 
   const toggleTheme = () => {
     if (theme === "light") {
@@ -13,10 +14,11 @@ export const ThemeProvider = ({ children }) => {
     }
   };
 
-  const value = {
+  const value = { // general store
     theme,
     toggleTheme,
-    age: 15
+    name,
+    setName
   };
 
   return (

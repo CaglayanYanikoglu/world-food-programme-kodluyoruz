@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+header {
+  margin-bottom: 32px;
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.input-container {
+  position: relative;
+  & > input {
+    padding: 6px;
+    border-radius: 4px;
+    border: 2px solid #ddd;
+    width: 400px;
+    padding-left: 30px;
+    transition: .3s all;
+    &:active, &:focus, &:focus-visible {
+      border: 2px solid #316ac5;
+      outline: none;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    width: 16px;
+  }
+}
+
+.add-user-btn, .save-btn, .close-btn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: rgb(8, 127, 8);
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.action-btns {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.user-table {
+  margin: 32px 0;
+  tbody {
+    position: relative;
+  }
+  thead tr {
+    th {
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+      font-weight: 600;
+    }
+  }
+  tbody tr {
+    td {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+      white-space: nowrap;
+    }
+    &:nth-child(even) {
+      background: rgb(236, 236, 244)
+    }
+  }
+}
+
+
+.modal-container {
+  width: 600px;
+  top: 30%;
+  border: 1px solid #e6e6e6;
+  position: absolute;
+  left: calc(50% - 300px);
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 7%);
+  border-radius: 6px;
+  overflow: hidden;
+  animation: display-modal-in 0.3s ease-in-out;
+  padding: 1em;
+}
+
+@keyframes display-modal-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.nav-menu {
+  padding: 32px;
+  display: flex;
+  gap: 12px;
+}
+
+.home {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  padding: 0 32px;
+}
+
+.modal-header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}

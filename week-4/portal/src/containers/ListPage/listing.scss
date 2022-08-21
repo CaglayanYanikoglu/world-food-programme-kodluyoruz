@@ -1,0 +1,29 @@
+
+.delete-btn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: rgb(239, 10, 10);
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  transition: .2s all;
+  &:hover {
+    background-color: tomato;
+  }
+}
+
+.field {
+  margin: 12px 0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  & > *:first-child {
+    flex: 1;
+  }
+  & > *:last-child {
+    flex: 4;
+  }
+  input {
+    padding: 4px 12px;
+  }
+}

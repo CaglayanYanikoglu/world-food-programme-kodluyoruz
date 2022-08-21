@@ -15,8 +15,20 @@ React Context
 React Fragments
 
 Day 2:
+Portals
+ReactDOM.createPortal(child, container)
+https://tsafaelmali.medium.com/react-react-portal-nedir-46cb5fa9c0cc#:~:text=React%20portal%2C%20bir%20child%20component,fazlas%C4%B1n%C4%B1%20render%20ederken%20fayda%20sa%C4%9Flar.
+
+
+Advanced Topics:
+
+accessibility
+https://reactjs.org/docs/accessibility.html
+
+ReactCode-Splitting
+https://reactjs.org/docs/code-splitting.html
+
+Maybe Week 5:
 High order components (https://reactjs.org/docs/higher-order-components.html)
  HOCs are not part of the React API, per se. They are a pattern that emerges from React’s compositional nature.
-ReactCode-Splitting
 Lifting State up in ReactJS
-Portal
