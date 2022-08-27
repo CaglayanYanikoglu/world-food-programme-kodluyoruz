@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 12px;
+  .basket-wrapper {
+    margin-left: auto;
+    cursor: pointer;
+  }
+}
+

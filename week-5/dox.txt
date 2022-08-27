@@ -1,0 +1,15 @@
+Meeting: mar-ndxu-ocp;
+
+(Create app = npx create-react-app@latest your-project-name --use-npm)
+
+
+https://izniburak.medium.com/react-ile-high-order-component-hoc-kullan%C4%B1m%C4%B1-e64503d2c89a
+https://medium.com/flexiple/introduction-to-higher-order-components-hoc-in-react-by-example-26bb2eb5b33c
+
+
+https://hakanyalitekin.files.wordpress.com/2019/04/prop-drilling-v-context.png
+
+
+https://reactjs.org/docs/error-boundaries.html
+
+https://blog.logrocket.com/react-error-handling-react-error-boundary/
