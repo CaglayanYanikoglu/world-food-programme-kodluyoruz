@@ -17,7 +17,6 @@ class ErrorBoundary extends React.Component {
     }
   
     render() {
-      console.log(this.props);
       if (this.state.hasError) {
         if (this.props.isHome) {
           return <h1>Project does not working.</h1>;

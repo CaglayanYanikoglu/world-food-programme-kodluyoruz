@@ -3,9 +3,29 @@
   align-items: center;
   gap: 30px;
   padding: 12px;
+  &-menu {
+    display: flex;
+    gap: 12px;
+    a {
+      text-decoration: none;
+      font-size: 24px;
+      color: #f27a1a;
+    }
+  }
   .basket-wrapper {
     margin-left: auto;
     cursor: pointer;
+    position: relative;
+  }
+  .cart-number {
+    color: #FFF;
+    background-color: #f27a1a;
+    border-radius: 50%;
+    padding: 4px 6px;
+    font-size: 10px;
+    position: absolute;
+    bottom: -4px;
+    right: -8px;
   }
 }
 

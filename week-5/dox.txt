@@ -13,3 +13,21 @@ https://hakanyalitekin.files.wordpress.com/2019/04/prop-drilling-v-context.png
 https://reactjs.org/docs/error-boundaries.html
 
 https://blog.logrocket.com/react-error-handling-react-error-boundary/
+
+
+https://nextjs.org/docs/getting-started
+
+https://medium.com/nerd-for-tech/compare-and-contrast-csr-ssr-and-ssg-in-nextjs-58e3caf2e15e
+
+
+https://react-redux.js.org/tutorials/quick-start
+
+
+https://medium.com/@zey./babel-eslint-ve-webpack-nedir-4606b8652c51
+
+
+https://medium.com/t%C3%BCrkiye/javascriptin-en-g%C4%B1c%C4%B1k-konular%C4%B1-webpack-babel-eslint-ve-di%C4%9Ferleri-fb2e1232a085
+
+
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript
